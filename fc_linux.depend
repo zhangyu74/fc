@@ -1,0 +1,178 @@
+# depslib dependency file v1.0
+1566185770 source:/home/zhangyu/work/cwork/fc_linux/main.cpp
+	"fullcard_data_parser.h"
+	"Trilateration.h"
+	"serial_IO.h"
+	<stdlib.h>
+	<stdio.h>
+	"rapidjson/document.h"
+	"rapidjson/istreamwrapper.h"
+
+1566185899 /home/zhangyu/work/cwork/fc_linux/fullcard_data_parser.h
+	"Trilateration.h"
+	<stdlib.h>
+	<stddef.h>
+	<cstring>
+	<vector>
+	<iostream>
+	<fstream>
+	<assert.h>
+	"rapidjson/document.h"
+	"rapidjson/istreamwrapper.h"
+
+1566119470 /home/zhangyu/work/cwork/fc_linux/Trilateration.h
+	<vector>
+	<math.h>
+
+1566100438 source:/home/zhangyu/work/cwork/fc_linux/Trilateration.cpp
+	"Trilateration.h"
+	<stdlib.h>
+	<iostream>
+	<iterator>
+	<math.h>
+	<iomanip>
+
+1566100516 source:/home/zhangyu/work/cwork/fc_linux/fullcard_data_parser.cpp
+	"fullcard_data_parser.h"
+	<stdlib.h>
+	<iostream>
+	<algorithm>
+	<iterator>
+	<math.h>
+	<iomanip>
+	<string.h>
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/document.h
+	"reader.h"
+	"internal/meta.h"
+	"internal/strfunc.h"
+	"memorystream.h"
+	"encodedstream.h"
+	<new>
+	<limits>
+	<iterator>
+	<utility>
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/reader.h
+	"allocators.h"
+	"stream.h"
+	"encodedstream.h"
+	"internal/meta.h"
+	"internal/stack.h"
+	"internal/strtod.h"
+	<limits>
+	<intrin.h>
+	<nmmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<stdexcept>
+	"rapidjson/error/error.h"
+	"rapidjson/reader.h"
+	"error/error.h"
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/allocators.h
+	"rapidjson.h"
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/rapidjson.h
+	<cstdlib>
+	<cstring>
+	"rapidjson/..."
+	<string>
+	"msinttypes/stdint.h"
+	"msinttypes/inttypes.h"
+	<stdint.h>
+	<inttypes.h>
+	<endian.h>
+	"rapidjson/..."
+	<cassert>
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/msinttypes/stdint.h
+	<stdint.h>
+	<limits.h>
+	<wchar.h>
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/msinttypes/inttypes.h
+	"stdint.h"
+	<inttypes.h>
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/stream.h
+	"rapidjson.h"
+	"encodings.h"
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/encodings.h
+	"rapidjson.h"
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/encodedstream.h
+	"stream.h"
+	"memorystream.h"
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/memorystream.h
+	"stream.h"
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/internal/meta.h
+	"../rapidjson.h"
+	<type_traits>
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/internal/stack.h
+	"../allocators.h"
+	"swap.h"
+	<cstddef>
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/internal/swap.h
+	"../rapidjson.h"
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/internal/strtod.h
+	"ieee754.h"
+	"biginteger.h"
+	"diyfp.h"
+	"pow10.h"
+	<climits>
+	<limits>
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/internal/ieee754.h
+	"../rapidjson.h"
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/internal/biginteger.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/internal/diyfp.h
+	"../rapidjson.h"
+	<limits>
+	<intrin.h>
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/internal/pow10.h
+	"../rapidjson.h"
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/error/error.h
+	"../rapidjson.h"
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/internal/strfunc.h
+	"../stream.h"
+	<cwchar>
+
+1566101020 /home/zhangyu/work/cwork/fc_linux/rapidjson/istreamwrapper.h
+	"stream.h"
+	<iosfwd>
+	<ios>
+
+1566130516 source:/home/zhangyu/work/cwork/fc_linux/serial_IO.cpp
+	"serial_IO.h"
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<errno.h>
+
+1566130016 /home/zhangyu/work/cwork/fc_linux/serial_IO.h
+	<stdlib.h>
+	<stddef.h>
+	<stdint.h>
+	<iostream>
+	<termios.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/types.h>
+	<unistd.h>
+	"rapidjson/document.h"
+	"rapidjson/istreamwrapper.h"
+
